@@ -10,6 +10,6 @@
 
 <div>
   <p1>
-    Special thanks to: Edje Electronics
+    Special thanks to: Edje Electronics and Nicholas Renotte
   </p1> 
 </div>
