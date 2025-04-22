@@ -178,14 +178,14 @@ from google.colab import files
 
 files.download('/content/my_model.zip')
 ```
-* Unzip the model in the same directory as Gesture_detect (YOLOv8n_1) and you'll have a custom trained object detection model.
+* In the same environment you installed requirments, unzip the model into the same directory as Gesture_detect and you'll have a custom trained object detection model ready to run inference.
 ```
   from ultralytics import YOLO
 import cv2
 import requests as rq
 
 # Load YOLOv8n model
-model = YOLO("YOLOv8n_1/YOLOv8ngestureRec.pt")
+model = YOLO("{your_Model_path}")
 
 # initilize cam
 cam = cv2.VideoCapture(0)
