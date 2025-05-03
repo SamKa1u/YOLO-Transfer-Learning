@@ -13,7 +13,12 @@ This project utilized label studio for labeling and the ultralytics library in a
 
 ### Executing program
 
-* Install requirements to your environment.
+* Clone the repository
+```
+!git clone https://github.com/SamKa1u/YOLO-Transfer-Learning
+```
+
+* Open command prompt in the directory you cloned the repo and install requirements to your environment.
 ```
 !pip install -r requirements.txt
 ```
